@@ -1,0 +1,340 @@
+html{
+  margin: 0;
+  padding:  0;
+}
+
+head{
+  margin: 0;
+  padding:  0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding:  0;
+  font-family: "Roboto";
+}
+
+ul{
+  margin: 0;
+  padding:  0;
+}
+
+li {
+  margin: 0;
+  padding:  0;
+  list-style: none;
+}
+
+.header{
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: #f8f8f8;
+  color: #111111;
+}
+
+.header-logo{
+  padding: 0 40px;
+  margin: 0;
+  font-size: 16px;
+  float: left;
+}
+
+.header-list li {
+  padding: 30px 20px;
+  margin: 0;
+  float: left;
+}
+
+.main{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 40px 0 0 0;
+  margin: 0;
+  background-image:url('../../assets/image/marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-blend-mode:lighten;
+  text-align:center;
+  height: 300px;
+  width: 100%;
+  color: #000000;
+}
+
+.container-title {
+  font-size: 14px;
+}
+
+.container h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 120px;
+  font-weight: bolder;
+  color: #655478;
+}
+
+.container-text {
+  padding-top: 5px;
+  margin:  auto;
+  max-width: 500px;
+  font-size: 18px;
+}
+.contents{
+  margin-top:0;
+}
+.contents-title{
+  height: 160px;
+  background-color: #655478;
+  color:  white;
+  text-align: center;
+}
+.contents-title h3{
+  padding-top: 15px;
+  margin-bottom:7px;
+  font-size: 18px;
+}
+.contents-title h1{
+  font-size: 32px;
+}
+.contents-title h4{
+  font-size: 15px;
+}
+
+.profil-satu{
+  background-color:#FFFFFF;
+  height:400px;
+  
+}
+.profil-satu img{
+  height:300px;
+  float: right;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.profil-ket-satu{
+  float: left;
+  padding-top: 95px;
+  padding-left: 200px;
+  color: #655478;
+  width:30%
+  }
+.profil-satu h3{
+  padding:0px;
+  margin:0px;
+  color:  #655478;
+}
+.profil-satu p{
+  text-align: justify;
+}
+.profil-dua{
+  background-color:#f8f8f8;
+  height:400px;
+    
+}
+.profil-dua img{
+  height:300px;
+  float: left;
+  padding-top: 50px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.profil-ket-dua{
+  float: right;
+  padding-top: 85px;
+  padding-right: 200px;
+  color: #655478;
+  width:30%
+}
+.profil-dua h3{
+  padding:0px;
+  margin:0px;
+  color: #655478;
+}
+.profil-dua p{
+  text-align: justify;
+}
+.contact{
+  height: 600px;
+  background-color: #655478;
+}
+.contact-title{
+  float: left;
+  padding-left: 200px;
+  padding-top: 200px;
+  color: white;
+}
+.contact-title h2{    
+font-size: 32px;
+font-weight: 900;
+margin-bottom: 7px;
+color:#f8f8f8;
+}
+.contact-form{
+  float: right;
+}
+.animation {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  position: relative;
+  animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 180px;}
+}
+.box-form{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px 60px;
+  background-color: white;
+  margin-right: 200px;
+  margin-top: 50px;
+  width: 50%;
+}
+.box-form p{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.box-form input{
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+}
+.box-form textarea{
+  font-size: 16px;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+.footer{
+  height: 80px;
+  background-color: #655478;
+  padding: 10px;
+  color:  white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer p{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.footer a{
+  margin-top: 7px;
+  color: white;
+}
+.footer a:hover{
+  color: lightgrey;
+}
+@media(max-width: 1000px){
+  .contact{
+    height: 700px;
+    background-color: #655478;
+  }
+  .contact-title{
+    float: left;
+    padding-left: 100px;
+    padding-top: 200px;
+    color: white;
+  }
+  .contact-title h2{    
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 7px;
+  color:#f8f8f8;
+  }
+  .contact-form{
+    float: right;
+  }
+  .box-form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 60px;
+    background-color: white;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 50%;
+  }
+  
+}
+@media(max-width: 670px){
+  .contact{
+    height: 700px;
+    background-size: auto;
+  }
+  .contact-title{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  .box-form{
+    padding: 30px 60px;
+    width: 50%;
+    margin: 20px 60px;
+  }
+  .profil-satu{
+    background-color:#FFFFFF;
+    height:650px; 
+    text-align: center; 
+  }
+  .profil-satu img{
+    height:300px;
+    padding-top: 35px;
+    padding-right: 90px;
+  }
+  .profil-ket-satu{
+    padding-top:35px;
+    padding-left:75px;
+    margin: 0px;
+    color: #655478;
+    width: 70%;
+    }
+  .profil-satu h3{
+    padding: 0px;
+    margin:0px;
+    color:  #655478;
+  }
+  .profil-satu p{
+    text-align: justify;
+  }
+  .profil-dua{
+    background-color:#f8f8f8;
+    height:650px; 
+    text-align: center;
+  }
+  .profil-dua img{
+    height:300px;
+    padding-top: 35px;
+    padding-left: 90px;
+    padding-right: 0px;
+  }
+  .profil-ket-dua{
+    padding-top:35px;
+    padding-right:70px;
+    margin: 0px;
+    color: #655478;
+    width: 70%;
+  }
+  .profil-dua h3{
+    padding:0px;
+    margin:0px;
+    color:  #655478;
+  }
+  .profil-dua p{
+    text-align: justify;
+  }
+  }
